@@ -6,32 +6,32 @@ export default function Portfolio() {
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/poert1.png",
-      title: "Project 1",
+      title: <i class="fa-solid fa-plus"></i>,
     },
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/port2.png",
-      title: "Project 2",
+      title: <i class="fa-solid fa-plus"></i>,
     },
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/port3.png",
-      title: "Project 3",
+      title: <i class="fa-solid fa-plus"></i>,
     },
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/poert1.png",
-      title: "Project 4",
+      title: <i class="fa-solid fa-plus"></i>,
     },
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/port2.png",
-      title: "Project 5",
+      title: <i class="fa-solid fa-plus"></i>,
     },
     {
       img_cover:
         "https://routeegy.github.io/startFramework/assets/images/port3.png",
-      title: "Project 6",
+      title:<i class="fa-solid fa-plus"></i>,
     },
   ];
 
