@@ -6,6 +6,15 @@
   padding: 20px 0 ;
 }
 
+.active {
+  background-color: rgb(26, 188, 156);
+  color: white !important;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+  box-shadow: 0 3px 8px rgba(26, 188, 156, 0.553);
+}
+
 #Home{
   background-color: #1abc9c;
   min-height: 100vh;
@@ -43,19 +52,10 @@
   color: #2c3e50;
   font-size: 40px;
 }
-/* #Portfolio{
-  background-color: white;
-  min-height: 100vh;
-  color: #2c3e50;
-  font-size: 40px;
-}
 
-.portfolio-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-} */
+#NotFound {
+  background-color: #04305ca5;
+}
 
 
 

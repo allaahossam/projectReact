@@ -7,6 +7,8 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portofolio/Portfolio';
 import Layout from './components/layout/Layout';
 import Start from './components/Start/Start';
+import NotFound from './components/NotFound/NotFound';
+
 
 
 let x = createBrowserRouter([
@@ -14,7 +16,8 @@ let x = createBrowserRouter([
     {path: "Start", element:<Start/>},
     { path : "About", element:<About/>},
     {path: "Portfolio" , element:<Portfolio/>},
-    {path : "Contact" , element:<Contact/> }
+    {path : "Contact" , element:<Contact/> },
+    { path: "*", element: <NotFound /> },
   ]}
 ]);
 
